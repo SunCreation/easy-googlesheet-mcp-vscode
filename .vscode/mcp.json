@@ -1,0 +1,17 @@
+{
+  "servers": {
+  "mcpServers": {
+      "type": "stdio",
+      "command": "uv",
+      "args": [
+        "run",         
+        "--directory",
+        "/Users/hchang/Documents/GoogleSheetAgent/mcp-google-sheets", 
+        "mcp-google-sheets"],
+      "env": {
+        "CREDENTIALS_PATH": "/Users/hchang/Documents/GoogleSheetAgent/mcp-google-sheets/credentials.json",
+        "TOKEN_PATH": "/Users/hchang/Documents/GoogleSheetAgent/mcp-google-sheets/token.json"
+      }
+    }
+  }
+}
