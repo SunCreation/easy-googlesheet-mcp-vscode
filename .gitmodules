@@ -1,0 +1,3 @@
+[submodule "mcp-google-sheets"]
+	path = mcp-google-sheets
+	url = git@github.com:SunCreation/mcp-google-sheets.git
